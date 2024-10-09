@@ -232,7 +232,11 @@ nav svg {
 }
 
 .image {
-  border-radius: 20%;
+
+
+  border-radius: 30%; /* Keep the images circular */
+  /* margin-right: 15px; Adjust space between the image and text */
+  
 }
 .cart-item h4 {
   margin-bottom: 0.5rem;

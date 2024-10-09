@@ -1,9 +1,9 @@
-import Navbar from "./components/Navbar";
-import CartContainer from "./components/CartContainer";
+import Navbar from "./components/Navbar.jsx";
+import CartContainer from "./components/CartContainer.jsx";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { calculateTotal } from "./features/cart/CartSlice";
-import Modal from "./components/Modal";
+import Modal from "./components/Modal.jsx";
 import { getCartItems } from "./features/cart/CartSlice";
 
 export default function App() {

@@ -5,12 +5,9 @@ import { useDispatch } from "react-redux";
 import PropTypes from 'prop-types';
 
 const CartItem = ({ id , img, title, price, amount }) => {
-  console.log(id, img, title, price, amount);
+  // console.log(id, img, title, price, amount);
 
-
-
-
-
+  console.log(title)
   const dispatch = useDispatch();
 
   return (

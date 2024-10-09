@@ -22,7 +22,12 @@ const CartContainer = () => {
       </header>
       <div>
         {cartItems.map((item) => {
-          return <CartItem key={item.id} {...item} />;
+          return <CartItem key={item.id}
+          id={item.id}
+          img={item.img}
+          title={item.title}
+          price={Number(item.price)}  // Convert to a number
+          amount={item.amount} />;
         })}
       </div>
       <footer>

@@ -9,5 +9,11 @@ export default defineConfig({
   },
   server: {
     port: 5173, // Specify your dev server port
-  }
+  },
+  esbuild: {
+    loader: 'jsx',
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'], // Ensure .jsx is handled correctly
+  },
 });
